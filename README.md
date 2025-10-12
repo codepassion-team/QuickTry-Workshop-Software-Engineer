@@ -1,10 +1,73 @@
 # QuickTry Workshop - Software Engineer
+## เวิร์คช็อปการพัฒนาเว็บไซต์สำหรับวิศวกรซอฟต์แวร์
 
-1. Skill development
-    - Learn basic web development
-2. Example works
-    - Simulate work with the QuickTry Studio website project
-3. Work with Github
-    - Create your first repositoty
-    - Deploy your own web site on Github
-4. Implement your own project
+---
+
+## 1. พัฒนาทักษะพื้นฐาน (Skill Development)
+**เรียนรู้การสร้างเว็บไซต์ตั้งแต่เริ่มต้น**
+
+โฟลเดอร์ `1-Basic-Web-Development` มีบทเรียน HTML, CSS และ JavaScript พื้นฐาน 14 บทเรียน:
+- Hello World - เริ่มต้นกับ HTML
+- Headings - การใช้หัวข้อ
+- Paragraph - ย่อหน้าและข้อความ
+- Links - การสร้างลิงก์
+- Images - การแทรกรูปภาพ
+- Buttons - ปุ่มต่างๆ
+- Lists - รายการแบบมีลำดับและไม่มีลำดับ
+- Text Formatting - การจัดรูปแบบข้อความ
+- Media - การใช้สื่อมัลติมีเดีย
+- Styling - การตกแต่งด้วย CSS
+- Tables - การสร้างตาราง
+- CSS - การใช้ CSS ขั้นสูง
+- JavaScript - พื้นฐาน JavaScript
+- Forms - การสร้างฟอร์ม
+
+---
+
+## 2. ศึกษาตัวอย่างผลงาน (Example Works)
+**ฝึกทำงานกับโปรเจกต์จริง**
+
+โฟลเดอร์ `2-Example-Works` มีเว็บไซต์ตัวอย่าง 4 แบบ:
+- **Personal Blog** - บล็อกส่วนตัว
+- **Coffee Shop** - เว็บร้านกาแฟ
+- **Corporate** - เว็บองค์กร
+- **Raven Studio** - เว็บสตูดิโอ
+
+เหมาะสำหรับฝึกทำงานกับโปรเจกต์ QuickTry Studio และเข้าใจโครงสร้างเว็บไซต์จริง
+
+---
+
+## 3. ทำงานกับ GitHub (Work with GitHub)
+**เรียนรู้การใช้ระบบควบคุมเวอร์ชัน**
+
+- สร้าง Repository แรกของคุณบน GitHub
+- อัปโหลดโค้ดเว็บไซต์ของคุณ
+- เผยแพร่เว็บไซต์บน GitHub Pages
+- เรียนรู้การทำงานร่วมกันผ่าน Git
+
+---
+
+## 4. สร้างโปรเจกต์ของคุณเอง (Implement Your Own Project)
+**ลงมือปฏิบัติจริง**
+
+โฟลเดอร์ `3-Starter-Templates` มีเทมเพลตสำเร็จรูป 10 แบบให้เลือกใช้:
+- Agency - เว็บเอเจนซี่
+- Band - เว็บวงดนตรี
+- Coffee Shop - ร้านกาแฟ
+- Corporate - องค์กร/บริษัท
+- Creative - พอร์ตโฟลิโอสร้างสรรค์
+- Freelancer - ฟรีแลนซ์
+- Grayscale - สไตล์ขาวดำ
+- Personal Blog - บล็อกส่วนตัว
+- Portfolio - พอร์ตโฟลิโอ
+- Resume - เรซูเม่ออนไลน์
+
+คุณสามารถเลือกเทมเพลตที่ชอบ ปรับแต่ง และพัฒนาเป็นเว็บไซต์ของตัวเองได้
+
+---
+
+### เป้าหมายของเวิร์คช็อป
+1. ✅ เรียนรู้พื้นฐาน HTML, CSS, JavaScript
+2. ✅ ทำความเข้าใจโครงสร้างเว็บไซต์จริง
+3. ✅ ฝึกใช้ GitHub และ Version Control
+4. ✅ สร้างและเผยแพร่เว็บไซต์ของตัวเอง
