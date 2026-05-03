@@ -22,6 +22,7 @@
   <body>
     <h2>Styling Tables</h2>
 
+
     <table style="width: 100%;">
       <tr>
         <th>Firstname</th>
@@ -33,40 +34,17 @@
         <td>Smith</td>
         <td>50</td>
       </tr>
-      <tr>
-        <td>Eve</td>
-        <td>Jackson</td>
-        <td>94</td>
-      </tr>
-      <tr>
-        <td>John</td>
-        <td>Doe</td>
-        <td>80</td>
-      </tr>
-    </table>
-    <br />
-
-    <table id="t01">
-      <tr>
-        <th>Firstname</th>
-        <th>Lastname</th>
-        <th>Age</th>
-      </tr>
-      <tr>
-        <td>Jill</td>
-        <td>Smith</td>
-        <td>50</td>
-      </tr>
-      <tr>
-        <td>Eve</td>
-        <td>Jackson</td>
-        <td>94</td>
-      </tr>
-      <tr>
-        <td>John</td>
-        <td>Doe</td>
-        <td>80</td>
-      </tr>
-    </table>
+    <hr>
+    <section class="prompt-skill" style="border:1px solid #e1e4e8; border-radius:8px; padding:16px; margin-top:24px; background:#f6f8fa; font-family:system-ui,'Segoe UI',sans-serif;">
+      <h3 style="margin-top:0;">🤖 Prompt Skill กับ GitHub Copilot</h3>
+      <p><strong>เป้าหมายของบทนี้:</strong> สร้างตารางข้อมูลที่อ่านง่ายและ accessible</p>
+      <p><strong>ตัวอย่าง Prompt ที่ดี:</strong></p>
+      <ul>
+        <li><code>// สร้างตารางสอน 5 คอลัมน์ (จันทร์-ศุกร์) 8 แถว (8.00-15.00)</code></li>
+        <li><code>// เพิ่ม thead, tbody, scope="col" และเส้นขอบ</code></li>
+        <li><code>/explain เหตุผลที่ใช้ th scope="row" แทน td สำหรับหัวแถว</code></li>
+      </ul>
+      <p><strong>⚠️ ข้อควรระวัง:</strong> อย่าใช้ table จัด layout ของหน้าเว็บ (เลิกใช้ไปนานแล้ว) ให้ใช้ CSS Grid/Flexbox แทน</p>
+    </section>
   </body>
 </html>

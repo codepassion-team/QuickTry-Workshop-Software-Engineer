@@ -6,10 +6,12 @@
       Your browser does not support the audio element.
     </audio>
 
+
     <video width="400" controls autoplay>
       <source src="media/mov_bbb.mp4" type="video/mp4">
       Your browser does not support HTML video.
     </video>
+
 
     <iframe
       width="420"
@@ -17,6 +19,7 @@
       src="https://www.youtube.com/embed/tgbNymZ7vqY"
     >
     </iframe>
+
 
     <iframe
       width="560"
@@ -27,5 +30,17 @@
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
     ></iframe>
+    <hr>
+    <section class="prompt-skill" style="border:1px solid #e1e4e8; border-radius:8px; padding:16px; margin-top:24px; background:#f6f8fa; font-family:system-ui,'Segoe UI',sans-serif;">
+      <h3 style="margin-top:0;">🤖 Prompt Skill กับ GitHub Copilot</h3>
+      <p><strong>เป้าหมายของบทนี้:</strong> ฝัง video/audio ที่เข้าถึงได้สำหรับทุกคน</p>
+      <p><strong>ตัวอย่าง Prompt ที่ดี:</strong></p>
+      <ul>
+        <li><code>// เพิ่มแท็ก video เล่นไฟล์ sample.mp4 พร้อม controls และ poster image</code></li>
+        <li><code>// เพิ่ม audio เล่น music.mp3 พร้อม controls และ loop</code></li>
+        <li><code>/explain เหตุผลที่ควรเตรียมไฟล์หลายฟอร์มัต (mp4, webm) ใน source</code></li>
+      </ul>
+      <p><strong>⚠️ ข้อควรระวัง:</strong> ไฟล์มีเดียอาจขนาดใหญ่ แนะนำให้บีบอัดก่อน deploy และไม่ commit ลง git โดยตรง</p>
+    </section>
   </body>
 </html>

@@ -3,7 +3,9 @@
   <body>
     <h2>What Can JavaScript Do?</h2>
 
+
     <p id="demo">JavaScript can change HTML content.</p>
+
 
     <button
       type="button"
@@ -12,14 +14,18 @@
       Click Me!
     </button>
 
+
     <hr />
 
+
     <p>JavaScript can change HTML attribute values.</p>
+
 
     <p>
       In this case JavaScript changes the value of the src (source) attribute of
       an image.
     </p>
+
 
     <button
       onclick="document.getElementById('myImage').src='https://www.w3schools.com/js/pic_bulbon.gif'"
@@ -27,49 +33,25 @@
       Turn on the light
     </button>
 
+
     <img
       id="myImage"
       src="https://www.w3schools.com/js/pic_bulboff.gif"
       style="width: 100px;"
     />
 
-    <button
-      onclick="document.getElementById('myImage').src='https://www.w3schools.com/js/pic_bulboff.gif'"
-    >
-      Turn off the light
-    </button>
 
-    <hr />
-
-    <p id="demo">JavaScript can change the style of an HTML element.</p>
-
-    <button
-      type="button"
-      onclick="document.getElementById('demo').style.fontSize='35px'"
-    >
-      Click Me!
-    </button>
-
-    <hr />
-
-    <p id="demo">JavaScript can hide HTML elements.</p>
-
-    <button
-      type="button"
-      onclick="document.getElementById('demo').style.display='none'"
-    >
-      Click Me!
-    </button>
-
-    <hr />
-
-    <p id="demo" style="display: none;">Hello JavaScript!</p>
-
-    <button
-      type="button"
-      onclick="document.getElementById('demo').style.display='block'"
-    >
-      Click Me!
-    </button>
+    <hr>
+    <section class="prompt-skill" style="border:1px solid #e1e4e8; border-radius:8px; padding:16px; margin-top:24px; background:#f6f8fa; font-family:system-ui,'Segoe UI',sans-serif;">
+      <h3 style="margin-top:0;">🤖 Prompt Skill กับ GitHub Copilot</h3>
+      <p><strong>เป้าหมายของบทนี้:</strong> เริ่มเขียน JS ทำงานกับ DOM ผ่าน Copilot</p>
+      <p><strong>ตัวอย่าง Prompt ที่ดี:</strong></p>
+      <ul>
+        <li><code>// เขียนฟังก์ชัน greet(name) ที่ console.log("สวัสดี " + name)</code></li>
+        <li><code>// เลือก element id="title" แล้วเปลี่ยนข้อความเป็น "ยินดีต้อนรับ" เมื่อโหลดหน้า</code></li>
+        <li><code>/tests สร้างชุดทดสอบสำหรับฟังก์ชัน greet ครอบคลุมกรณีว่าง/ตัวเลข</code></li>
+      </ul>
+      <p><strong>⚠️ ข้อควรระวัง:</strong> Copilot อาจเสนอไวยากรณ์ไม่ปลอดภัย เช่น innerHTML + user input ตรวจสอบปัญหา XSS ก่อนใช้งาน</p>
+    </section>
   </body>
 </html>

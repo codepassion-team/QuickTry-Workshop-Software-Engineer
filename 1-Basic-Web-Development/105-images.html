@@ -4,8 +4,10 @@
     <h2>HTML Images</h2>
     <p>HTML images are defined with the img tag:</p>
 
+
     <!-- An image in another folder -->
     <img src="/images/html5.gif" alt="HTML5 Icon" />
+
 
     <!-- An image on another server -->
     <img
@@ -15,11 +17,24 @@
       height="500"
     />
 
+
     <img
       src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1743"
       alt="My Cat"
       width="300"
       height="300"
     />
+    <hr>
+    <section class="prompt-skill" style="border:1px solid #e1e4e8; border-radius:8px; padding:16px; margin-top:24px; background:#f6f8fa; font-family:system-ui,'Segoe UI',sans-serif;">
+      <h3 style="margin-top:0;">🤖 Prompt Skill กับ GitHub Copilot</h3>
+      <p><strong>เป้าหมายของบทนี้:</strong> แทรกรูปภาพและเขียน alt text ที่ดีต่อ accessibility</p>
+      <p><strong>ตัวอย่าง Prompt ที่ดี:</strong></p>
+      <ul>
+        <li><code>// เพิ่มรูป cat.jpg พร้อม alt text ที่อธิบายภาพให้ screen reader เข้าใจ</code></li>
+        <li><code>// ใส่ width 300 และทำให้รูปชิดกลางหน้า</code></li>
+        <li><code>/explain ความแตกต่างระหว่าง img กับ background-image ใน CSS</code></li>
+      </ul>
+      <p><strong>⚠️ ข้อควรระวัง:</strong> อย่าปล่อย alt ว่าง และอย่าผูก hotlink รูปจากเว็บอื่นโดยไม่ได้รับอนุญาต</p>
+    </section>
   </body>
 </html>
